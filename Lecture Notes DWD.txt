@@ -1,0 +1,311 @@
+What is data?
+Data is a set of information. It's a collection of values that convey some information.Now, data alone is not information, data by itself is not information,
+alotof data together is also not information.data is a set of values that gives information,and it depends on how we interpret data so that it conveys some information
+which is of importance.
+
+
+Now, data values can be some kind of quantity,like weight,no.of students,sales,proit,etc.  is quantity.
+Or quality- thereare set standards to measure quality.,likeuality of drug,vaccine,etc.
+or Facts like your date of birth
+or statistics-like average salary of people in different states.
+
+Types of data-
+now,when we work on data,weneed to organize the data so that we can easily analyze our data.What we have seen is organizing our data into tabular format.
+Such kind of data is structured data. for eg, data stored in Excel sheets, SQl table, pandas dataframe,etc. 
+But it'snot always possible to organize our data in tabular fromat.Such kind of data is unstructured data.For eg.Graphs. When we use social media, we follow some uers,
+in the same way,there might be sme other user following us,This kind of info cannot be easily stored in tabular format or sturctured format.That is why,most of the
+social media people,store there data in graphs and that is Unstructured data.like videos,audios
+
+Semi-structured data-The data not completely unstructured like videos and audios,alsonot completely structred like excel sheets.for eg.JSON files.
+
+
+Now, example of data can be-Giving link for online class, amazon products,stock markets,block cahin,railway pass,i.e. any data when analyzedgives some info.
+
+Now,how to collect data? giving reviews,through measurements,survey forms,or collected by noting some observations.
+
+Now,before analysing your data,umust clean the data,like removing null values, removing outliers,removing duplicates,etc.
+After cleaning our data,wemove to analysis of data.
+
+Now,difference between data,information,intelligence and knowledge is-
+Data regarding same theme or topic gives information like  we have data of name,ages,salary.Now if I say this data belongs tosome employee then it becomes information.
+Now, we draw some insights basedon this information, it becomes intelligence.Now we use this intelligence for some prediction,then thats knowledge.
+Because if we want to analyse our data,likemean medain mode,then that will give wrong results.
+
+
+Andrew NG,
+
+AI is research based industry.There is no exact aanswer.
+
+Data Analytics - data analyst: identify, collect, clean, analyze, and interpret data. needs Maths,Statistics,Business Expertise 
+(i.e. understand the problem from domain point of view by studying the data.i.e. understanding rows & cols)
+Tools required- Excel,Advance Excel, SQL, Tableau, PowerBi, and a little bit of programming.Dashboarding tools are excel,adv excel,tableau,power bi.
+
+Data Analyst-
+Data Analyst analyzes numeric data and uses it to help companies make better decisions.
+
+Data analysts are one of the data consumers. A data analyst answers questions about the present such as: what is going on now? What are the causes? Can you show me XYZ?
+What should we do to avoid/achieve ABC? What is the trend in the past 3 years? Is our product doing well?
+
+A data analyst’s job includes 3 main parts:
+
+Understand the metrics/business problem, i.e ask the right questions.
+Find out the answers or more insights from the data.
+Communication. This includes creating dashboards with appropriate visualisations and explaining them in an easy-understanding way to non-tech stakeholders.
+
+
+Skills requirements
+
+SQL: This is essential for all data-related roles to interact with databases.
+
+Data visualisation: The more important thing is knowing how to visualise the data in a proper way, rather than the tool you use. 
+Most companies have licensed Business Intelligence tools like Power BI, Tableau, Looker, Qlik, etc. 
+You don’t need to know how to use all of them. If you understand the core concepts of data analysis, it shouldn’t take you long to pick up any one of them.
+
+Domain knowledge: I’d say domain knowledge is much more critical for a data analyst than other roles.
+These kinds of domain knowledge are necessary to ask the right questions, to be able to find out insights and to contribute to business decisions.
+
+
+
+Data Scientist - Do Data Diagnostic,Data Prediction
+He is next to ceo.They take business decisions. Evrything Data Analyst knows + alot of programming+ m/c learning(nlp,compvision, deep learning),
+should of strong hold on algorithms for searching, sorting, finding also knows big data.
+
+Data scientists are another data consumer. Instead of answering questions about the present, 
+they try to find patterns in the data and answer the questions about the future, i.e prediction. 
+This technique has actually existed for a long time. You must have heard of it, it’s called statistics. 
+Machine learning and deep learning are the 2 most popular ways to utilise the power of computers to find patterns in data. 
+Data scientists also build products based on those predictions. For instance, a recommendation system predicts what you like, 
+a ranking system predicts the order of popularity, NLP predicts what a sentence means. 
+Data scientists build these products not to help make business decisions, but to solve business problems.
+
+Skills requirements:
+
+SQL: This is essential for all data-related roles to interact with databases.
+
+Statistics/Mathematics: You have to master statistics knowledge such as theories behind each machine learning method, probabilities, etc to solve more complex problems.
+This part is quite academic and theoretical, that’s why most of the data scientist roles would require a Master or PhD degree.
+
+Programming skills: To apply statistics knowledge to solve real-world problems, you have to equip yourself with programming skills. 
+Training models, writing algorithms, building next-generation products are all done on a laptop. Data science is a subject that combines computer science & statistics.
+Currently, Python and R are the most popular programming language.
+Software development: Just like any other engineer, software development skills are essential to cooperate with other stakeholders. 
+Git workflow, CI/CD, DevOps, etc are all basic in a data scientist’s arsenal.
+
+Data Engineer - Previously,data eng was referred as SQL developer.He sould know,mathematics and Statistics knowledge., RDBMS, Data EXtraction(i.e.Web Scrapping),
+There job role is to collect the data and give to data analyst or data scientist.
+
+everything that happens to the data before reaching the database is taken care of by data engineers.
+
+A data engineer cares most about:
+
+How to ingest data from disparate sources to one single destination for analysts and scientists to consume.
+Make sure the data pipeline, storage, data structure are optimised and most cost-efficient for the company.
+Make sure the data that analysts and scientists use is the most updated, validated and accountable. They won’t make wrong decisions because the data is incorrect.
+
+Skills requirements
+
+SQL: In addition, a data engineer should understand the ins and outs of each different database, when to use which, what are their edges. 
+
+Sometimes need to know DBA (database administration) commands like monitoring accesses of team members, writing procedures, 
+maintaining schemas to optimise database performance.
+
+Cloud computing: As now nearly all of the data is on the cloud, from storage to database to warehousing, engineers have to be very familiar with the cloud computing
+technology. AWS (Amazon), Azure (Microsoft), and GCP (Google) are the 3 most popular cloud services in the market. This also includes the application of parallel computing (Hadoop, Spark) and big data.
+
+Software development: Same as the abovementioned.
+
+
+Data Analytics->level1- MIS(Management Information System),level2->DescriptiveAnalysis,level3->Data Visualization/Dashboard ,
+level4->predictive modelling predicts what is likely to happen.This is by 
+ML engineer, Level5-> big data : gives ans of what can be done using this data. For which, we use hadooop. 
+
+
+-----------------------------------------------------
+
+How to see data?-
+The 2 tyes of data are qualitative data and quantitative data.
+1.Qualitative data is divided into 2 -Nominal and Ordinal
+And qunatitative data is divided into discrete and continuous data.
+
+So,qualitative data is the data wich cannot be countedlike, your name,cities name,like sum of everybody's name makesno sense.etc.
+and,quantitative data is the data that can be counted. Data like sales,profit,etc.This can be used in statistical measures.
+
+Under qualitative data we have nominal data-i.e data which doenot follow any order.Que is which season come first?It's a cycle, right. So such kind of data , which is in cyclic form
+is a Nominal data.Ordinal data has specific order.Like colors,they have significance but they cannot be comparedwich color is above which.eg gender
+
+Ordinal data follow some kind of ranking or order. Like class 1,2 3 or grades.
+
+Then comes qunatitative data is divided into discrete and continuous data.
+Continuous data is like temperature,height,weight,etc.It can take any value from-ve to +ve.
+Discrete data is like-cannot be subdivided,i.e. cannot have dicmalpoints,like number of employees, number of citites,etc.
+
+
+
+ 
+
+Statistician-In the domain of statistics, data is costly,U r paid to collect the data, and do MIS.
+
+ML Engineer-Here,data is cheap.U r paid to aska right ques and draw insights from data.
+
+
+Now, calculating mean median variance stddev comes under Descriptive statistics.
+
+But what is statistics-Statistics is To collect, Analyse,Summarize,interpret and to draw conclusion from data. i.e. we are studying sample of data.
+
+Population is a universalset. Sample is subset. Statistics is study of sample.Parameter is mu for mean in population.Statistics we have xdash -mean.
+std div is sigma in parameter. S is std dev in sample
+
+population	  sample
+universal set	  sub set
+parameter	  statistics
+mu -mean	  Xbar
+sigma -std dev	  S
+Nbar - population (N-1)bar
+var-
+  (x-xhat)^2/N    (x-xbar)^2/N-1
+
+
+Descriptive statistics is how well we can describe our data by concepts like- Measure of central dependency, dispersion,etc.
+
+For population-
+1+2+3+4+5=15=total
+15/5=3=mean
+(3-1)^2+(3-2)^2+(3-3)^2+(3-4)^2+(3-5)^2=4+1+0+1+4=10/5=2=var
+sqrt(2)=1.414=std dev
+
+
+
+The p value is a number, calculated from a statistical test, that describes how likely you are to have found a
+particular set of observations if the null hypothesis were true.
+
+P values are used in hypothesis testing to help decide whether to reject the null hypothesis. The smaller the
+p value, the more likely you are to reject the null hypothesis.
+
+The p value is a proportion: if your p value is 0.05, that means that 5% of the time you would see a test
+statistic at least as extreme as the one you found if the null hypothesis was true
+
+1.Hypothesis Testing is a type of statistical analysis in which you put your assumptions about a population parameter
+to the test. It is used to estimate the relationship between 2 statistical variables.
+
+Null Hypothesis and Alternate Hypothesis
+ The Null Hypothesis is the assumption that the event will not occur. A null hypothesis has no bearing on the study's
+outcome unless it is rejected.H0 is the symbol for it, and it is pronounced H-naught.
+ The Alternate Hypothesis is the logical opposite of the null hypothesis.
+The acceptance of the alternative hypothesis follows the rejection of the null hypothesis.
+H1 is the symbol for it.
+
+2.One-tailed Tests
+ A one-tailed test may be either left-tailed or right-tailed.A left-tailed test is used when the alternative
+ hypothesis states that the true value of the parameter specified in the null hypothesis is less than the
+ null hypothesis claims.A right-tailed test is used when the alternative hypothesis states that the true
+ value of the parameter specified in the null hypothesis is greater than the null hypothesis claims.
+
+ Two-tailed Tests
+ The main difference between one-tailed and two-tailed tests is that one-tailed tests will only
+ have one critical region whereas two-tailed tests will have two critical regions. If we require a 
+ 100(1âˆ’Î±)% confidence interval we have to make some adjustments when using a two-tailed test.
+ The confidence interval must remain a constant size, so if we are performing a two-tailed test,
+ as there are twice as many critical regions then these critical regions must be half the size.
+ This means that when we read the tables, when performing a two-tailed test, we need to consider 
+ Î±/2 rather than Î±.
+
+3.Degrees of freedom refers to the maximum number of logically independent values, which are values
+that have the freedom to vary, in the data sample. Once the degrees of freedom quantity have been selected,
+specific data sample items must be chosen if there is a outstanding requirement of the data sample.
+
+4.In statistics, a Type I error is a false positive conclusion, while a Type II error is a false negative conclusion.
+  Making a statistical decision always involves uncertainties, so the risks of making these errors are unavoidable
+  in hypothesis testing.The probability of making a Type I error is the significance level, or alpha (Î±),
+ while the probability of making a Type II error is beta (Î²). These risks can be minimized
+ through careful planning in your study design.
+
+
+5.A chi-squared test (symbolically represented as Ï‡2) is basically a data analysis on the basis
+ of observations of a random set of variables. Usually, it is a comparison of two statistical data sets.
+ The chi-square test is used to estimate how likely the observations that are made would be, by
+ considering the assumption of the null hypothesis as true.
+ The formula for chi-square can be written as;
+ Ï‡2 = âˆ‘(Oi â€“ Ei)2/Ei, where Oi is the observed value and Ei is the expected value.
+
+6.An ANOVA test is a type of statistical test used to determine if there is a statistically significant
+ difference between two or more categorical groups by testing for differences of means using variance.
+ Another Key part of ANOVA is that it splits the independent variable into 2 or more groups.
+ For example, one or more groups might be expected to influences the dependent variable while the other group
+ is used as a control group, and is not expected to influence the dependent variable.
+
+7.A t-test is an inferential statistic used to determine if there is a statistically significant
+  difference between the means of two variables.The t-test is a test used for hypothesis testing in statistics.
+  Calculating a t-test requires three fundamental data values including the difference between the mean values
+  from each data set, the standard deviation of each group, and the number of data values.T-tests can be
+  dependent or independent.
+
+8.Z-tests and T-tests are the two statistical methods that involve data analysis, which has applications in
+  science, business, and many other disciplines. The T-test is a univariate hypothesis test based on
+  T-statistics, wherein the mean, i.e., the average, is known, and population variance, i.e.,
+  the standard deviation, is approximated from the sample. On the other hand, Z-test is also a
+  univariate test based on a standard normal distribution.
+
+#-----------------------------------------
+1.Hypothesis Testing is a type of statistical analysis in which you put your assumptions about a population parameter
+to the test. It is used to estimate the relationship between 2 statistical variables.
+
+Null Hypothesis and Alternate Hypothesis
+ The Null Hypothesis is the assumption that the event will not occur. A null hypothesis has no bearing on the study's
+outcome unless it is rejected.H0 is the symbol for it, and it is pronounced H-naught.
+ The Alternate Hypothesis is the logical opposite of the null hypothesis.
+The acceptance of the alternative hypothesis follows the rejection of the null hypothesis.
+H1 is the symbol for it.
+
+2.One-tailed Tests
+ A one-tailed test may be either left-tailed or right-tailed.A left-tailed test is used when the alternative
+ hypothesis states that the true value of the parameter specified in the null hypothesis is less than the
+ null hypothesis claims.A right-tailed test is used when the alternative hypothesis states that the true
+ value of the parameter specified in the null hypothesis is greater than the null hypothesis claims.
+
+ Two-tailed Tests
+ The main difference between one-tailed and two-tailed tests is that one-tailed tests will only
+ have one critical region whereas two-tailed tests will have two critical regions. If we require a 
+ 100(1âˆ’Î±)% confidence interval we have to make some adjustments when using a two-tailed test.
+ The confidence interval must remain a constant size, so if we are performing a two-tailed test,
+ as there are twice as many critical regions then these critical regions must be half the size.
+ This means that when we read the tables, when performing a two-tailed test, we need to consider 
+ Î±/2 rather than Î±.
+
+3.Degrees of freedom refers to the maximum number of logically independent values, which are values
+that have the freedom to vary, in the data sample. Once the degrees of freedom quantity have been selected,
+specific data sample items must be chosen if there is a outstanding requirement of the data sample.
+
+4.In statistics, a Type I error is a false positive conclusion, while a Type II error is a false negative conclusion.
+  Making a statistical decision always involves uncertainties, so the risks of making these errors are unavoidable
+  in hypothesis testing.The probability of making a Type I error is the significance level, or alpha (Î±),
+ while the probability of making a Type II error is beta (Î²). These risks can be minimized
+ through careful planning in your study design.
+
+
+5.A chi-squared test (symbolically represented as Ï‡2) is basically a data analysis on the basis
+ of observations of a random set of variables. Usually, it is a comparison of two statistical data sets.
+ The chi-square test is used to estimate how likely the observations that are made would be, by
+ considering the assumption of the null hypothesis as true.
+ The formula for chi-square can be written as;
+ Ï‡2 = âˆ‘(Oi â€“ Ei)2/Ei, where Oi is the observed value and Ei is the expected value.
+
+6.An ANOVA test is a type of statistical test used to determine if there is a statistically significant
+ difference between two or more categorical groups by testing for differences of means using variance.
+ Another Key part of ANOVA is that it splits the independent variable into 2 or more groups.
+ For example, one or more groups might be expected to influences the dependent variable while the other group
+ is used as a control group, and is not expected to influence the dependent variable.
+
+7.A t-test is an inferential statistic used to determine if there is a statistically significant
+  difference between the means of two variables.The t-test is a test used for hypothesis testing in statistics.
+  Calculating a t-test requires three fundamental data values including the difference between the mean values
+  from each data set, the standard deviation of each group, and the number of data values.T-tests can be
+  dependent or independent.
+
+8.Z-tests and T-tests are the two statistical methods that involve data analysis, which has applications in
+  science, business, and many other disciplines. The T-test is a univariate hypothesis test based on
+  T-statistics, wherein the mean, i.e., the average, is known, and population variance, i.e.,
+  the standard deviation, is approximated from the sample. On the other hand, Z-test is also a
+  univariate test based on a standard normal distribution.
+
+
+   
