@@ -173,8 +173,56 @@ For population-
 (3-1)^2+(3-2)^2+(3-3)^2+(3-4)^2+(3-5)^2=4+1+0+1+4=10/5=2=var
 sqrt(2)=1.414=std dev
 
+To calculate the skewness of the dataset \([1, 2, 3, 4, 5]\) mathematically step-by-step, we'll follow the formula for skewness. Here's the detailed calculation:
 
+### Step-by-Step Calculation
 
+Given the dataset:
+\[ x = [1, 2, 3, 4, 5] \]
+
+1. **Calculate the mean (\(\bar{x}\))**:
+\[ \bar{x} = \frac{1 + 2 + 3 + 4 + 5}{5} = \frac{15}{5} = 3 \]
+
+2. **Calculate the standard deviation (\(s\))**:
+\[ s = \sqrt{\frac{\sum_{i=1}^{n} (x_i - \bar{x})^2}{n-1}} \]
+
+First, calculate each \((x_i - \bar{x})^2\):
+\[
+(1 - 3)^2 = (-2)^2 = 4 \\
+(2 - 3)^2 = (-1)^2 = 1 \\
+(3 - 3)^2 = 0^2 = 0 \\
+(4 - 3)^2 = 1^2 = 1 \\
+(5 - 3)^2 = 2^2 = 4
+\]
+
+Sum these values:
+\[ 4 + 1 + 0 + 1 + 4 = 10 \]
+
+Now, divide by \( n - 1 \) (where \( n = 5 \)):
+\[ s = \sqrt{\frac{10}{4}} = \sqrt{2.5} = 1.5811 \]
+
+3. **Calculate the skewness**:
+\[ \text{Skewness} = \frac{n}{(n-1)(n-2)} \sum_{i=1}^{n} \left(\frac{x_i - \bar{x}}{s}\right)^3 \]
+
+Calculate each \(\left(\frac{x_i - \bar{x}}{s}\right)^3\):
+\[
+\left(\frac{1 - 3}{1.5811}\right)^3 = \left(\frac{-2}{1.5811}\right)^3 = (-1.2649)^3 = -2.023 \\
+\left(\frac{2 - 3}{1.5811}\right)^3 = \left(\frac{-1}{1.5811}\right)^3 = (-0.6325)^3 = -0.253 \\
+\left(\frac{3 - 3}{1.5811}\right)^3 = 0^3 = 0 \\
+\left(\frac{4 - 3}{1.5811}\right)^3 = \left(\frac{1}{1.5811}\right)^3 = 0.6325^3 = 0.253 \\
+\left(\frac{5 - 3}{1.5811}\right)^3 = \left(\frac{2}{1.5811}\right)^3 = 1.2649^3 = 2.023
+\]
+
+Sum these values:
+\[ -2.023 + (-0.253) + 0 + 0.253 + 2.023 = 0 \]
+
+Finally, multiply by \(\frac{n}{(n-1)(n-2)}\):
+\[ \text{Skewness} = \frac{5}{(5-1)(5-2)} \cdot 0 = \frac{5}{4 \cdot 3} \cdot 0 = 0 \]
+
+### Conclusion
+The skewness of the dataset \([1, 2, 3, 4, 5]\) is 0, indicating that the distribution is perfectly symmetric.
+
+1:02-------https://drive.google.com/drive/folders/16WBNnXjjQB6ATrY5Empek0A0Fm-neMT5
 The p value is a number, calculated from a statistical test, that describes how likely you are to have found a
 particular set of observations if the null hypothesis were true.
 
@@ -218,6 +266,47 @@ specific data sample items must be chosen if there is a outstanding requirement 
   in hypothesis testing.The probability of making a Type I error is the significance level, or alpha (Î±),
  while the probability of making a Type II error is beta (Î²). These risks can be minimized
  through careful planning in your study design.
+
+For accepting or rejecting null hypothesis we need different tests.
+2 such tests are Anova and chi2 test.
+
+Now if we have 2 continuous variable, then
+to see the corr we do correlation test, heatmap,scatterplot.
+And we can figure out if its +vely corr, -vely corr or not correlated.
+
+for 1 conti and 1 categorical we do ANOVA(Analysis of Variance) test or f-test 
+
+for 2 categorical we do chi sq test.
+
+1 way anova -- 1 categorical 1 conti and 2 way anova-- 2 categorical and 1 conti
+
+So for testing we have certain assumptions which we either accept or reject.
+These assumptions are called as hypothesis.
+So we have nul hypo(H0) and alternate Hypotheis(H1) which are opposite of one another.
+
+To accept or reject null hypothessis, we need understanding of another term called as confidance interval.
+But before that we will discuss inferential statistics.
+So we do analysis on samples and based on central limit theorem, we do inferential statitisce.
+So based on samples if our assumption is average earning of Indian population is 10000,
+then how confident we are that it is 45000.
+
+Now while plotting normal distribution, we have level of significance or critical area,
+which is beyond [min,max] interval range.
+So the line at critical level is critical value.
+If our values fall in the critical area then we reject null hypo.
+
+So if after doing test , the final value is less than critical value-- then accept null hypo.
+If final value is greater than critical value-- then reject null hypo.
+
+ANOVA or F-test= variance betw group/var within grp.
+
+Steps--
+1.calc sq of all categories.
+2. Formulate null hypothess.and opp will be alternate hypo--
+3. Calc correlation factor. CF=(summation x)^2/N
+4. 
+
+degree of freedom--
 
 
 5.A chi-squared test (symbolically represented as Ï‡2) is basically a data analysis on the basis
